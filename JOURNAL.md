@@ -10,7 +10,7 @@ This is my journal of the design and building process of **EasyRP2040**.
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/391).
 
 
-## 10/10/2025 - finished the schamtic !  
+## 10/10/2025 4 PM - finished the schamtic !  
 
 finished the schematic for the devboard
 
@@ -35,4 +35,9 @@ notes on learning:
 
 ![Screenshot 2025-10-10 165033.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTUwNSwicHVyIjoiYmxvYl9pZCJ9fQ==--8b4418cc33993a83aad23bbd0b52a1733f462028/Screenshot%202025-10-10%20165033.png)
   
+
+## 10/10/2025 7 PM - added imu + leds for customization  
+
+added the icm-20602 imu on the devboard; picked it bc its the simplest one that jlcpcb has. it requires two capacitors on vdd for some reason, and one other one on vddio. also added leds, one is a power led (will be green), one is a bootloader led which hopefully going through RUN should only be on when the devboard is in BOOTSEL, and one last one thats just connected to gpio25 bc its unused.
+![Screenshot 2025-10-10 190902.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTUzMCwicHVyIjoiYmxvYl9pZCJ9fQ==--27295984f1ecd5468bef4aae34fa74542e088311/Screenshot%202025-10-10%20190902.png)  
 
