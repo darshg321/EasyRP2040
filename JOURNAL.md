@@ -10,7 +10,7 @@ This is my journal of the design and building process of **EasyRP2040**.
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/391).
 
 
-## 10/10/2025 - finished the schamtic !  
+## 10/10/2025 4 PM - finished the schamtic !  
 
 finished the schematic for the devboard
 
@@ -35,4 +35,45 @@ notes on learning:
 
 ![Screenshot 2025-10-10 165033.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTUwNSwicHVyIjoiYmxvYl9pZCJ9fQ==--8b4418cc33993a83aad23bbd0b52a1733f462028/Screenshot%202025-10-10%20165033.png)
   
+
+## 10/10/2025 7 PM - added imu + leds for customization  
+
+added the icm-20602 imu on the devboard; picked it bc its the simplest one that jlcpcb has. it requires two capacitors on vdd for some reason, and one other one on vddio. also added leds, one is a power led (will be green), one is a bootloader led which hopefully going through RUN should only be on when the devboard is in BOOTSEL, and one last one thats just connected to gpio25 bc its unused.
+![Screenshot 2025-10-10 190902.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTUzMCwicHVyIjoiYmxvYl9pZCJ9fQ==--27295984f1ecd5468bef4aae34fa74542e088311/Screenshot%202025-10-10%20190902.png)  
+
+## 10/10/2025 10 PM - partially routed pcb  
+
+added footprints to everything, and partially routed the pcb. i have the rough shape of everything there, and roughly where everything is supposed to go. learned that you need to do differential pairs, and that the usb lines need to be the same length so that data travel at the same exact rate
+![Screenshot 2025-10-10 224958.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTU0OSwicHVyIjoiYmxvYl9pZCJ9fQ==--cc7cb692e499c6664a3c04fb878c8451d01f0759/Screenshot%202025-10-10%20224958.png)
+  
+
+## 10/11/2025 1 AM - more routing...  
+
+this takes forever aaaa
+routed more of the pcb, started the gnd plane which didnt do much bc my routing was very bad, separated a whole bunch of gnd pins. need to fix a lot of routing bc i have a bunch of bottom and top traces so i cant pass gnd through it :(
+![Screenshot 2025-10-11 010821.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTU1OCwicHVyIjoiYmxvYl9pZCJ9fQ==--5d3bcebf55bd8c2012b438ec630d8208d2a42d2b/Screenshot%202025-10-11%20010821.png)  
+
+## 10/11/2025 4 PM - finished routing the pcb  
+
+finished routing the pcb; took forever to fix my routing but oh well.
+lessons learned: 
+- do ics first
+- do capacitors after that
+- minimize vias and non gnd back signals better
+i have some thermal via issues but that isnt a big problem, especially single im doing pcba as well
+![Screenshot 2025-10-11 163931.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTY3NywicHVyIjoiYmxvYl9pZCJ9fQ==--c7556ff13e4cba557aa3aaa377b054e15b3ab0d7/Screenshot%202025-10-11%20163931.png)
+  
+
+## 10/11/2025 7 PM - added to jlcpcb cart  
+
+took forever too but finished making the prod files and fixing everything on jlcpcb
+
+unfortunately the imu i put is standard only, and that adds like $50, so ill buy it and place it myself since i have solder paste and a hot gun
+
+also drew silkscreen stuff which i didnt mention; made it on excalidraw i think it looks cute :)
+done yippee
+
+![Untitled-2025-10-11-1707.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTY5MywicHVyIjoiYmxvYl9pZCJ9fQ==--4050e873d62803963a3be275b944d045c59dba3c/Untitled-2025-10-11-1707.png)
+
+![Screenshot 2025-10-11 192141.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTY5NCwicHVyIjoiYmxvYl9pZCJ9fQ==--8f756f7491e2992bbb9aa6d2ff636a79149cd205/Screenshot%202025-10-11%20192141.png)  
 
