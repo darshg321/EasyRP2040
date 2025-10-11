@@ -41,3 +41,9 @@ notes on learning:
 added the icm-20602 imu on the devboard; picked it bc its the simplest one that jlcpcb has. it requires two capacitors on vdd for some reason, and one other one on vddio. also added leds, one is a power led (will be green), one is a bootloader led which hopefully going through RUN should only be on when the devboard is in BOOTSEL, and one last one thats just connected to gpio25 bc its unused.
 ![Screenshot 2025-10-10 190902.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTUzMCwicHVyIjoiYmxvYl9pZCJ9fQ==--27295984f1ecd5468bef4aae34fa74542e088311/Screenshot%202025-10-10%20190902.png)  
 
+## 10/10/2025 10 PM - partially routed pcb  
+
+added footprints to everything, and partially routed the pcb. i have the rough shape of everything there, and roughly where everything is supposed to go. learned that you need to do differential pairs, and that the usb lines need to be the same length so that data travel at the same exact rate
+![Screenshot 2025-10-10 224958.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTU0OSwicHVyIjoiYmxvYl9pZCJ9fQ==--cc7cb692e499c6664a3c04fb878c8451d01f0759/Screenshot%202025-10-10%20224958.png)
+  
+
