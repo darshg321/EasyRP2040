@@ -47,3 +47,9 @@ added footprints to everything, and partially routed the pcb. i have the rough s
 ![Screenshot 2025-10-10 224958.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTU0OSwicHVyIjoiYmxvYl9pZCJ9fQ==--cc7cb692e499c6664a3c04fb878c8451d01f0759/Screenshot%202025-10-10%20224958.png)
   
 
+## 10/11/2025 - more routing...  
+
+this takes forever aaaa
+routed more of the pcb, started the gnd plane which didnt do much bc my routing was very bad, separated a whole bunch of gnd pins. need to fix a lot of routing bc i have a bunch of bottom and top traces so i cant pass gnd through it :(
+![Screenshot 2025-10-11 010821.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTU1OCwicHVyIjoiYmxvYl9pZCJ9fQ==--5d3bcebf55bd8c2012b438ec630d8208d2a42d2b/Screenshot%202025-10-11%20010821.png)  
+
