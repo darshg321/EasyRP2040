@@ -64,3 +64,16 @@ i have some thermal via issues but that isnt a big problem, especially single im
 ![Screenshot 2025-10-11 163931.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTY3NywicHVyIjoiYmxvYl9pZCJ9fQ==--c7556ff13e4cba557aa3aaa377b054e15b3ab0d7/Screenshot%202025-10-11%20163931.png)
   
 
+## 10/11/2025 7 PM - added to jlcpcb cart  
+
+took forever too but finished making the prod files and fixing everything on jlcpcb
+
+unfortunately the imu i put is standard only, and that adds like $50, so ill buy it and place it myself since i have solder paste and a hot gun
+
+also drew silkscreen stuff which i didnt mention; made it on excalidraw i think it looks cute :)
+done yippee
+
+![Untitled-2025-10-11-1707.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTY5MywicHVyIjoiYmxvYl9pZCJ9fQ==--4050e873d62803963a3be275b944d045c59dba3c/Untitled-2025-10-11-1707.png)
+
+![Screenshot 2025-10-11 192141.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTY5NCwicHVyIjoiYmxvYl9pZCJ9fQ==--8f756f7491e2992bbb9aa6d2ff636a79149cd205/Screenshot%202025-10-11%20192141.png)  
+
