@@ -4,6 +4,8 @@ my custom rp2040 devboard :)
 
 has debug leds and a 9-DOF IMU composed of multiple 3-axis sensors
 
+in the format of a rpi pico
+
 # BOM
 
 |Id |Designator|Footprint                                  |Quantity                       |Comment                    |Supplier and ref|

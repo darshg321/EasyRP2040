@@ -33,11 +33,6 @@ EasyRP2040-backups
 # Footprint association file (exported from Pcbnew)
 *.cmp
 
-# Exported BOM files
-*.xml
-*.csv
-*.tsv
-
 # Misc
 *.log
 *.raw
