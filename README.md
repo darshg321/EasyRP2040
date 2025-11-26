@@ -6,6 +6,8 @@ has debug leds and a 9-DOF IMU composed of multiple 3-axis sensors
 
 in the format of a rpi pico
 
+![IMG_3060](https://github.com/user-attachments/assets/7779f488-6cd1-4d6c-a19a-be1e9f82466a)
+
 # BOM
 
 |Id |Designator|Footprint                                  |Quantity                       |Comment                    |Supplier and ref|
